@@ -27,7 +27,9 @@
         android:layout_margin="10dp"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_panjang"
+        android:hint="Input Panjang"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,9 +38,19 @@
         android:layout_margin="10dp"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_lebar"
+        android:hint="Input Lebar"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hitung Luas"/>
+        android:text="Hitung Luas"
+        android:id="@+id/btn_hitung"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_hasil"
+        android:textSize="30sp"/>
 </LinearLayout>
